@@ -19,8 +19,4 @@ public class Srccode extends JPanel {
       setBaseInstances(new Instances(r));
         //....
     }
-    public void setInstancesFromDBQ(){
-      int test=0;
-        //......
-    }
 }
