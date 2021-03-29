@@ -9,7 +9,7 @@ public class Srccode extends JPanel {
     public static void setInstance(Instance inst){
         m_BaseInstance=inst;
         m_BaseInstPanel.setInstance(m_BaseInstance);
-        setBaseInstanceFromFileQ();
+        
         //.......
     }
 }
