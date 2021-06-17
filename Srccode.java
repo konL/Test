@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Srccode extends JPanel {
   protected Instance m_Instance_test;
-  protected Panel m_BaseInstPanel;
+  protected Panel m_Base;
     //...
     public static void setBaseInstance(Instance inst){
         m_BaseInstance=inst;
