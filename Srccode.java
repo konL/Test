@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Srccode extends JPanel {
   protected Instance m_Instance_test;
-  protected Panel m_Base;
+  protected Panel  m_BaseInstPanel;
     //...
     public static void setBaseInstance(Instance inst){
         m_BaseInstance=inst;
@@ -19,7 +19,7 @@ public class Srccode extends JPanel {
       setBaseInstances(new Instances(r));
         //....
     }
-    public void setBaseInstancesFromDBQ(){
+    public void setBaseInstancesFromDBQ_2(){
       int test=0;
         //......
     }
