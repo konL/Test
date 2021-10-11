@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Srccode extends JPanel {
+<<<<<<< HEAD
   protected Instance m_Instance;
   protected Panel  m_BaseInstPanel;
     //...
@@ -23,4 +24,15 @@ public class Srccode extends JPanel {
       int test02=0;
         //......
     }
+=======
+  protected Instance m_Instance_new;
+  protected Panel m_InstPanel;
+    //...
+    public static void setBaseInstance_new(Instance inst){
+        m_BaseInstance=inst;
+        m_BaseInstPanel.setInstance(m_BaseInstance);
+        
+        //.......
+    }
+>>>>>>> 4880d89fa5bc8522fa17d72b7f5219b0d229761f
 }

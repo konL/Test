@@ -1,0 +1,36 @@
+commit 35b76601e144e0999cd3a7d257412eb235273ec6
+Author: 梁嘉慧 <liangjiahui_x@163.com>
+Date:   Fri Oct 8 17:09:03 2021 +0800
+
+    1008
+
+diff --git a/Srccode.java b/Srccode.java
+--- a/Srccode.java
++++ b/Srccode.java
+@@ -15,7 +15,7 @@
+     public void setBaseInstanceFromFileQ(){
+       int as=0;
+       int as2=1;
+       Instance i=m_BaseInstance;
+-      setBaseInstances(new Instances(r));
++      setBaseInstances(i);
+         //....
+     }
+
+commit 36cb4eb6ee385800fd625e51cc2d542cee796192
+Author: liang <116996285@qq.com>
+Date:   Tue Feb 2 21:21:19 2021 +0800
+
+    v1-Srccode.java
+
+diff --git a/Srccode.java b/Srccode.java
+--- /dev/null
++++ b/Srccode.java
+@@ -0,0 +15,7 @@
++    public void setBaseInstanceFromFileQ(){
++      int as=0;
++      int as2=1;
++      Instance i=m_BaseInstance;
++      setBaseInstances(new Instances(r));
++        //....
++    }
