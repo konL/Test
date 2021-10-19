@@ -24,16 +24,16 @@ public class Srccode extends JPanel {
       int test02=0;
         //......
     }
-  public void setProxyFactory(ProxyFactory proxyFactory) {
-    this.proxyFactory = proxyFactory;
-  }
-  public void setRmiProxyFactory(RmiProxyFactory rmiProxyFactory) {
-
+  public void setProxyFactory(RmiProxyFactory rmiProxyFactory) {
     this.rmiProxyFactory = rmiProxyFactory;
+  }
+  public void setRmiProxyFactory(ProxyFactory ProxyFactory) {
+
+    this.ProxyFactory = ProxyFactory;
   }
   public int getIndexInterval()
   {
-    return indexInterval;
+    return minIndexInterval;
   }
 
 }
