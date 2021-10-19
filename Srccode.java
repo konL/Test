@@ -17,12 +17,23 @@ public class Srccode extends JPanel {
       int as=0;
       int as2=1;
       Instance i=m_Instance;
-      setBaseInstances(i);
+      setBaseInstance(i);
         //....
     }
-    public void setBaseInstancesFromDBQ_2(){
+    public void testFunc(){
       int test02=0;
         //......
     }
+  public void setProxyFactory(ProxyFactory proxyFactory) {
+    this.proxyFactory = proxyFactory;
+  }
+  public void setRmiProxyFactory(RmiProxyFactory rmiProxyFactory) {
+
+    this.rmiProxyFactory = rmiProxyFactory;
+  }
+  public int getIndexInterval()
+  {
+    return indexInterval;
+  }
 
 }
