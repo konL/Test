@@ -33,6 +33,7 @@ public class Srccode extends JPanel {
   }
   public int getIndexInterval()
   {
+    int minIndexInterval=this.minIndexInterval;
     return minIndexInterval;
   }
 
