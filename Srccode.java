@@ -35,8 +35,8 @@ public class SrcCode extends JPanel {
   }
   public int getIndexInterval()
   {
-    int minIndexInterval=this.minIndexInterval;
-    return minIndexInterval;
+    int indexInterval=this.indexInterval;
+    return indexInterval;
   }
 
 }
