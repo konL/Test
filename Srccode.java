@@ -2,12 +2,12 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Srccode extends JPanel {
+public class SrcCode extends JPanel {
 
   protected Instance m_Instance;
   protected Panel  m_BaseInstPanel;
     //...
-    public static void setBaseInstance(Instance inst){
+    public static void setInstance(Instance inst){
       m_Instance=inst;
         m_BaseInstPanel.setInstance(m_Instance);
         setBaseInstanceFromFileQ();
@@ -17,7 +17,7 @@ public class Srccode extends JPanel {
       int as=0;
       int as2=1;
       Instance i=m_Instance;
-      setBaseInstance(i);
+      setInstance(i);
         //....
     }
     public void testFunc(){
