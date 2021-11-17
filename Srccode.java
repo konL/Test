@@ -21,7 +21,7 @@ public class Srccode extends JPanel {
         //....
     }
     public void testFunc(){
-      Hello hello=new Hello();
+      HelloDao hello=new HelloDao();
       hello.say();
       int test02=0;
         //......
@@ -40,7 +40,7 @@ public class Srccode extends JPanel {
   }
 
 }
-class Hello{
+class HelloDao{
   public void say(){
     System.out.println("Hello");
   }
