@@ -21,6 +21,8 @@ public class Srccode extends JPanel {
         //....
     }
     public void testFunc(){
+      Hello hello=new Hello();
+      hello.say();
       int test02=0;
         //......
     }
@@ -35,6 +37,12 @@ public class Srccode extends JPanel {
   {
     int minIndexInterval=this.minIndexInterval;
     return minIndexInterval;
+  }
+
+}
+class Hello{
+  public void say(){
+    System.out.println("Hello");
   }
 
 }
